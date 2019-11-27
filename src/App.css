@@ -1,5 +1,12 @@
+body {
+  color: #020402;
+  font-size: 18px;
+}
+
 .App {
+  margin: auto;
   text-align: center;
+  max-width: 480px;
 }
 
 .App-logo {
@@ -19,4 +26,80 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.item-block  {
+  display: flex;
+  margin: 8px auto;
+  max-width: 480px;
+  padding: 0;
+}
+
+.item-pad {
+  flex-grow: 1;
+  min-height: 84px;
+  width: 100%;
+}
+
+.toggle-pad {
+  background-color: #8CC084;
+  text-align: left;
+}
+
+p {
+  word-break: break-all;
+  padding: 2px 18px;
+}
+
+.toggle-pad:hover {
+  background-color: #49A078;
+}
+
+.remove-pad {
+  max-width: 24px;
+  background-color: #FF7E6B;
+}
+
+.remove-pad:hover {
+  background-color: #CC2936;
+}
+
+button {
+  background-color: #8CC084;
+  border: none;
+}
+
+button:hover {
+  background-color: #49A078;
+  transition: 0.5s;
+}
+
+.form-container {
+  border-width: 1px;
+  border-color: #8CC084;
+  border-style: solid;
+  flex-grow: 1;
+}
+
+textarea {
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+}
+
+.finished .item-block {
+  text-decoration: line-through;
+}
+
+.finished .toggle-pad {
+  background-color: #717C89 !important;
+}
+
+.finished .toggle-pad:hover {
+  background-color: #49A078 !important;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
 }
