@@ -1,19 +1,17 @@
 import React, {FunctionComponent} from "react";
 import {Task} from "../store/types";
-import {TaskItemActions} from "./TaskPanel";
+import {Link} from "react-router-dom";
 
-const getOrderingStyle = (id: number) => {
-    return {
-        order: id
-    }
-};
+interface Props {
+    task: Task
+    toggle: (id: number) => void
+    remove: (id: number) => void
+}
 
-export const TaskItem: FunctionComponent<{
-    task: Task, actions: TaskItemActions
-}> = (props) => {
+export const TaskItem: FunctionComponent<Props> = (props) => {
     let task = props.task;
-    let toggle = props.actions.toggle;
-    let remove = props.actions.remove;
+    let toggle = props.toggle;
+    let remove = props.remove;
 
     const onRemove = (e: React.MouseEvent) => {
         remove(props.task.id)
@@ -29,12 +27,15 @@ export const TaskItem: FunctionComponent<{
         <div style={style} className={'item-container ' + (task.finished ? 'finished' : '')}>
             <div className={'item-block'}>
                 <div className={'item-pad toggle-pad'} onClick={onToggle}>
-                    <p>
-                        {task.title}
-                    </p>
                 </div>
+                <Link to={'/todo/' + task.id}>
+                    <div className={'item-pad select-pad'}>
+                        <p>
+                            {task.title}
+                        </p>
+                    </div>
+                </Link>
                 <div className={'item-pad remove-pad'} onClick={onRemove}>
-
                 </div>
             </div>
         </div>

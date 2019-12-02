@@ -2,6 +2,7 @@ import React, {ChangeEvent, Component, createRef} from "react";
 import {Task} from "../store/types";
 
 export interface TaskFormProps {
+    nextId: number
     saveTask(task: Task): void
 }
 
@@ -10,7 +11,7 @@ export class TaskForm extends Component<TaskFormProps, Task> {
     state: Task = {
         title: "",
         finished: false,
-        id: 0
+        id: this.props.nextId
     };
 
     taskInput = createRef<HTMLTextAreaElement>();

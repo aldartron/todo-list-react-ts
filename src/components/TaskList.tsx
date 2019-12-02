@@ -1,17 +1,25 @@
 import React, {FunctionComponent} from "react";
-import {Task} from "../store/types";
 import {TaskItem} from "./TaskItem";
-import {TaskItemActions} from "./TaskPanel";
+import {Task} from "../store/types";
 
-export const TaskList: FunctionComponent<{
-    tasks: Task[],
-    actions: TaskItemActions
-}> = (props) => {
+interface Props {
+    tasks: Task[]
+    actions: {
+        remove: (id: number) => void
+        toggle: (id: number) => void
+    }
+}
+
+export const TaskList: FunctionComponent<Props> = (props) => {
     return (
         <div className={'task-list'}>
             {props.tasks.map(task => {
                 return (
-                    <TaskItem key={task.id} task={task} actions={props.actions}/>
+                    <TaskItem key={task.id}
+                              task={task}
+                              toggle={props.actions.toggle!}
+                              remove={props.actions.remove!}
+                    />
                 )
             })}
         </div>
