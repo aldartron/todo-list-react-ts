@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae93ffa0-7baa-4321-8c47-a8844c3997a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TaskBoard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TaskCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TaskMain.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskPanel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskMain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskMain.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +38,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Users\ashoydokov\WebstormProjects\todo-react-ts\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ashoydokov\WebstormProjects\todo-react-ts\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ashoydokov\WebstormProjects\todo-react-ts\src\components" />
       <recent name="C:\Users\ashoydokov\WebstormProjects\todo-react-ts\src\components\TaskItem" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ashoydokov\WebstormProjects\todo-react-ts" />
+      <recent name="C:\Users\ashoydokov\WebstormProjects\todo-react-ts\public" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,7 +85,11 @@
       <workItem from="1575265897073" duration="3985000" />
       <workItem from="1575270250820" duration="337000" />
       <workItem from="1575270597737" duration="8000" />
-      <workItem from="1575270615750" duration="7189000" />
+      <workItem from="1575270615750" duration="7545000" />
+      <workItem from="1575280799462" duration="623000" />
+      <workItem from="1575281467444" duration="4030000" />
+      <workItem from="1575364755767" duration="34000" />
+      <workItem from="1575374317578" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="React + TS implementation">
       <created>1574861111247</created>
@@ -102,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574861111247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Todo item page implemented">
+      <created>1575278040598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575278040598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="React + TS implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="React + TS implementation" />
+    <MESSAGE value="Todo item page implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todo item page implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="796" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1575272804465">
@@ -135,10 +139,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="721" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575027846532" />
-    <state x="742" y="85" key="CommitChangelistDialog2" timestamp="1574861110671">
+    <state x="742" y="85" key="CommitChangelistDialog2" timestamp="1575278039845">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="742" y="85" key="CommitChangelistDialog2/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1574861110671" />
+    <state x="742" y="85" key="CommitChangelistDialog2/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575278039845" />
     <state x="154" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1575013774928">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -151,14 +155,18 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="712" y="281" width="540" height="524" key="StructurePopup/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1574843021853" />
+    <state x="583" y="272" key="Vcs.Push.Dialog.v2" timestamp="1575278049054">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="583" y="272" key="Vcs.Push.Dialog.v2/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575278049054" />
     <state x="800" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575025768452">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="800" y="456" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575025768452" />
-    <state x="687" y="145" width="741" height="789" key="find.popup" timestamp="1575272921710">
+    <state x="687" y="145" width="741" height="789" key="find.popup" timestamp="1575290335501">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="687" y="145" width="741" height="789" key="find.popup/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575272921710" />
+    <state x="687" y="145" width="741" height="789" key="find.popup/62.0.1858.1080/1920.-271.1080.1920@62.0.1858.1080" timestamp="1575290335501" />
     <state x="632" y="266" width="700" height="530" key="recent.locations.popup" timestamp="1574774543800">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

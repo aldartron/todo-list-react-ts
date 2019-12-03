@@ -2,6 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+To run with Docker at port 8080:
+
+### `docker build -t todo:dev .`
+### `docker run -it -p 8080:3000 -v %cd%:/app todo:dev`
+
+or with Docker-compose:
+
+### `docker-compose up`
+
 In the project directory, you can run:
 
 ### `npm start`

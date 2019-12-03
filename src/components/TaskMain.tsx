@@ -59,7 +59,7 @@ class TaskMain extends Component {
         }
     };
 
-    renderTaskBoard = (props) => (
+        renderTaskBoard = (props) => (
         <TaskBoard {...props}
                    tasks={this.state.tasks}
                    actions={{
